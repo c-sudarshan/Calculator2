@@ -1,0 +1,35 @@
+.calculator {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 2rem;
+  
+}
+
+h1 {
+  color: #ef1212;
+  text-align: center;
+  font-size: 2rem;
+
+}
+
+.calculator input {
+  margin: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.calculator button {
+  margin: 0.5rem 0.1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #ef1212;
+  color: white;
+  cursor: pointer;  
+}
